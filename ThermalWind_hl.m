@@ -72,4 +72,4 @@ colormap(quant_blue) % 9 intervals
 %}
 
 % 6. Compute Richardson number
-Ri = bvf./u_z;
+Ri = (bvf./u_z).^2;
